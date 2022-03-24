@@ -1,6 +1,6 @@
-title:               Green Web Template
+title:               Jon's Discipleship Lab
 url:                 'https://garden.megu.space'
-favicon:              🥬
+favicon:             🔬
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/Los_Angeles
@@ -16,7 +16,7 @@ exclude:             ['_includes/notes_graph.json','obsidian-templates']
 use_html_extension:  true
 
 # 'True' displays notes graph at bottom of each note
-show_notes_graph: false
+show_notes_graph: true
 
 # Set to `true` to open non-internal links in new tabs, or
 # set to `false` to open non-internal links in current tab.
