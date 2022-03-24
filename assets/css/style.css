@@ -5,12 +5,12 @@
 
 /* Global Styles */
 :root {
-  --heading-color: {{ themes[0].colors.--heading-color }};
-  --text-color: {{ themes[0].colors.--text-color }};
-  --text-color-faded: {{ themes[0].colors.--text-color-faded }};
-  --primary-color: {{ themes[0].colors.--primary-color }};
-  --background-color: {{ themes[0].colors.--background-color }};
-  --callout-background: {{ themes[0].colors.--callout-background }};
+  --heading-color: {{ themes[0].colors.heading-color }};
+  --text-color: {{ themes[0].colors.text-color }};
+  --text-color-faded: {{ themes[0].colors.text-color-faded }};
+  --primary-color: {{ themes[0].colors.primary-color }};
+  --background-color: {{ themes[0].colors.background-color }};
+  --callout-background: {{ themes[0].colors.callout-background }};
   --primary-font: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   --heading-font: "Wremena", "Times", "Times New Roman", serif;
   /* Set headings to large size by increasing :root em font size */
@@ -27,12 +27,12 @@
 
 @media(prefers-color-scheme: dark) {
     :root {
-    --heading-color: {{ themes[1].colors.--heading-color }};
-    --text-color: {{ themes[1].colors.--text-color }};
-    --text-color-faded: {{ themes[1].colors.--text-color-faded }};
-    --primary-color: {{ themes[1].colors.--primary-color }};
-    --background-color: {{ themes[1].colors.--background-color }};
-    --callout-background: {{ themes[1].colors.--callout-background }};
+    --heading-color: {{ themes[1].colors.heading-color }};
+    --text-color: {{ themes[1].colors.text-color }};
+    --text-color-faded: {{ themes[1].colors.text-color-faded }};
+    --primary-color: {{ themes[1].colors.primary-color }};
+    --background-color: {{ themes[1].colors.background-color }};
+    --callout-background: {{ themes[1].colors.callout-background }};
     }
 }
 // generate the theme css from the data file
@@ -42,12 +42,12 @@
 
 {% for theme in themes %}
  [data-theme="{{ theme.id }}"] {
-    --heading-color: {{ themes.colors.--heading-color }};
-    --text-color: {{ themes.colors.--text-color }};
-    --text-color-faded: {{ themes.colors.--text-color-faded }};
-    --primary-color: {{ themes.colors.--primary-color }};
-    --background-color: {{ themes.colors.--background-color }};
-    --callout-background: {{ themes.colors.--callout-background }};
+    --heading-color: {{ themes.colors.heading-color }};
+    --text-color: {{ themes.colors.text-color }};
+    --text-color-faded: {{ themes.colors.text-color-faded }};
+    --primary-color: {{ themes.colors.primary-color }};
+    --background-color: {{ themes.colors.background-color }};
+    --callout-background: {{ themes.colors.callout-background }};
  }
 {% endfor %}
 
