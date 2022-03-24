@@ -1,7 +1,3 @@
-// create the font buttons
-// I gave each button a value
-// I want to get the value and save it in local storage 
-
 <section class="theme-section">
     <div class="theme-btn-wrapper">
         <button class="btn btn--small btn--border js-font-btn" value="16">16px</button>
@@ -9,19 +5,12 @@
         <button class="btn btn--small btn--border js-font-btn" value="20">20px</button>
         <button class="btn btn--small btn--border js-font-btn" value="22">22px</button>
     </div>
-</section>
-
-// Create the toggle button
-// To turn On & Off
-// The fixed header
-// The **sr-only** is used to hide the text visually 
-// while keeping accessibilty in mind
-// note the **role="switch"** nd aria-checked
-// they are what turns the button to a On and Off switch
-<div class="check-wrapper">
+    <div class="check-wrapper">
     <span id="btn-label" class="sr-only">Fixed or static header</span>
    <button role="switch" type="button" aria-checked="true" aria-labelledby="btn-label" class="js-theme-toggle btn btn--border btn--rounded btn--toggle">
        <span>On</span>
        <span>Off</span>
    </button>
 </div>
+</section>
+
