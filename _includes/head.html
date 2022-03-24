@@ -21,6 +21,26 @@
   <link rel=icon href="/favicon.png" sizes="120x120" type="image/png">
   {% endif %}
 
+  <script>
+    const scheme = localStorage.getItem('theme-name');
+      document.documentElement.setAttribute('data-theme', scheme);
+
+      const fontSize = localStorage.getItem('font-size');
+    document.documentElement.style.setProperty('--font-size',  `${fontSize}px`);
+    
+
+    const position = localStorage.getItem('position');
+    if (position == 'fixed') {
+        document.documentElement.style.setProperty('--position', 'fixed');
+        document.documentElement.style.setProperty('--top-margin', '96px');
+
+    } else {
+        document.documentElement.style.setProperty('--position', 'static');
+        document.documentElement.style.setProperty('--top-margin', '0px');
+
+    }    
+    
+  </script>
 
   <link rel="stylesheet" href="assets/css/style.css">
 
