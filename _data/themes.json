@@ -3,120 +3,120 @@
         "id": "default",
         "name": "Classic",
         "colors": {
-            "--primary-color": "#ff335f",
-            "--heading-color": "#43a9a3",
-            "--text-color": "#373a3c",
-            "--background-color": "#ffffff",
-            "--text-color-faded": "#818a91",
-            "--callout-background": "#f7f7f9"
+            "primary-color": "#ff335f",
+            "heading-color": "#43a9a3",
+            "text-color": "#373a3c",
+            "background-color": "#ffffff",
+            "text-color-faded": "#818a91",
+            "callout-background": "#f7f7f9"
         }
     },
     {
         "id": "dark",
         "name": "Dark",
         "colors": {
-            "--primary-color": "#ff5277",
-            "--heading-color": "#43a9a3",
-            "--text-color": "#ffffff",
-            "--background-color": "#0e141b",
-            "--text-color-faded": "#818a91",
-            "--callout-background": "#252526"
+            "primary-color": "#ff5277",
+            "heading-color": "#43a9a3",
+            "text-color": "#ffffff",
+            "background-color": "#0e141b",
+            "text-color-faded": "#818a91",
+            "callout-background": "#252526"
         }
     },
     {
         "id": "beach",
         "name": "Koopa Beach",
         "colors": {
-            "--primary-color": "#ff9d00",
-            "--heading-color": "#bae8e8",
-            "--text-color": "#272343",
-            "--background-color": "#fffffe",
-            "--text-color-faded": "#2d334a",
-            "--callout-background": "#e3f6f5"
+            "primary-color": "#ff9d00",
+            "heading-color": "#bae8e8",
+            "text-color": "#272343",
+            "background-color": "#fffffe",
+            "text-color-faded": "#2d334a",
+            "callout-background": "#e3f6f5"
         }
     },
     {
         "id": "choco",
         "name": "Choco Mountain",
         "colors": {
-            "--primary-color": "#f3ab87",
-            "--heading-color": "#e78fb3",
-            "--text-color": "#fffffe",
-            "--background-color": "#55423d",
-            "--text-color-faded": "#ffc0ad",
-            "--callout-background": "#41312E"
+            "primary-color": "#f3ab87",
+            "heading-color": "#e78fb3",
+            "text-color": "#fffffe",
+            "background-color": "#55423d",
+            "text-color-faded": "#ffc0ad",
+            "callout-background": "#41312E"
         }
     },
     {
         "id": "moomoo",
         "name": "Moo Moo Farm",
         "colors": {
-            "--primary-color": "#f582ae",
-            "--heading-color": "#8bd3dd",
-            "--text-color": "#172c66",
-            "--background-color": "#fef6e4",
-            "--text-color-faded": "#006e8a",
-            "--callout-background": "#f3e1d8"
+            "primary-color": "#f582ae",
+            "heading-color": "#8bd3dd",
+            "text-color": "#172c66",
+            "background-color": "#fef6e4",
+            "text-color-faded": "#006e8a",
+            "callout-background": "#f3e1d8"
         }
     },
     {
         "id": "bowser",
         "name": "Bowser's Castle",
         "colors": {
-            "--primary-color": "#7f5af0",
-            "--heading-color": "#2cb67d",
-            "--text-color": "#fffffe",
-            "--background-color": "#16161a",
-            "--text-color-faded": "#94a1b2",
-            "--callout-background": "#29293e"
+            "primary-color": "#7f5af0",
+            "heading-color": "#2cb67d",
+            "text-color": "#fffffe",
+            "background-color": "#16161a",
+            "text-color-faded": "#94a1b2",
+            "callout-background": "#29293e"
         }
     },
     {
         "id": "yoshi",
         "name": "Yoshi Valley",
         "colors": {
-            "--primary-color": "#99C221",
-            "--heading-color": "#E55812",
-            "--text-color": "#41474C",
-            "--background-color": "#fafbf5",
-            "--text-color-faded": "#757D84",
-            "--callout-background": "#f2ede9"
+            "primary-color": "#99C221",
+            "heading-color": "#E55812",
+            "text-color": "#41474C",
+            "background-color": "#fafbf5",
+            "text-color-faded": "#757D84",
+            "callout-background": "#f2ede9"
         }
     },
     {
         "id": "rainbow",
         "name": "Rainbow Road",
         "colors": {
-            "--primary-color": "#49f5f7",
-            "--heading-color": "#01c317",
-            "--text-color": "#feff00",
-            "--background-color": "#140527",
-            "--text-color-faded": "#ff464d",
-            "--callout-background": "#311b46"
+            "primary-color": "#49f5f7",
+            "heading-color": "#01c317",
+            "text-color": "#feff00",
+            "background-color": "#140527",
+            "text-color-faded": "#ff464d",
+            "callout-background": "#311b46"
         }
     },
     {
         "id": "lobster",
         "name": "Lobster Life",
         "colors": {
-            "--primary-color": "#b62b2b",
-            "--heading-color": "#fb9f13",
-            "--text-color": "#4b1313",
-            "--background-color": "#fcddd4",
-            "--text-color-faded": "#146caa",
-            "--callout-background": "#ffb9ad"
+            "primary-color": "#b62b2b",
+            "heading-color": "#fb9f13",
+            "text-color": "#4b1313",
+            "background-color": "#fcddd4",
+            "text-color-faded": "#146caa",
+            "callout-background": "#ffb9ad"
         }
     },
     {
         "id": "hackernews",
         "name": "Hacker News",
         "colors": {
-            "--primary-color": "#FF6600",
-            "--heading-color": "#FF6600",
-            "--text-color": "#000000",
-            "--background-color": "#F6F6EF",
-            "--text-color-faded": "#828282",
-            "--callout-background": "#F8F8EC"
+            "primary-color": "#FF6600",
+            "heading-color": "#FF6600",
+            "text-color": "#000000",
+            "background-color": "#F6F6EF",
+            "text-color-faded": "#828282",
+            "callout-background": "#F8F8EC"
         }
     }
 ]
