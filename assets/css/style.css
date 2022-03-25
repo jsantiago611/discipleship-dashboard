@@ -5,12 +5,12 @@
 
 /* Global Styles */
 :root {
-  --heading-color: {{ themes[0].colors.heading-color }};
+  /*--heading-color: {{ themes[0].colors.heading-color }};
   --text-color: {{ themes[0].colors.text-color }};
   --text-color-faded: {{ themes[0].colors.text-color-faded }};
   --primary-color: {{ themes[0].colors.primary-color }};
   --background-color: {{ themes[0].colors.background-color }};
-  --callout-background: {{ themes[0].colors.callout-background }};
+  --callout-background: {{ themes[0].colors.callout-background }};*/
   --primary-font: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   --heading-font: "Wremena", "Times", "Times New Roman", serif;
   /* Set headings to large size by increasing :root em font size */
@@ -25,7 +25,7 @@
 // if user preferred color scheme is dark
 // use the dark theme
 
-@media(prefers-color-scheme: dark) {
+/* @media(prefers-color-scheme: dark) {
     :root {
     --heading-color: {{ themes[1].colors.heading-color }};
     --text-color: {{ themes[1].colors.text-color }};
@@ -59,7 +59,7 @@
     --callout-background: {{ themes.colors.callout-background }};
  }
 {% endfor %}
-
+*/
 
 /* Reset non-headings to a smaller size while retaining visual rhythm */
 main>*>:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6), footer *, nav * {
@@ -74,8 +74,8 @@ body, html {
 
 /* Body Styles */
 body {
-  background-color: var(--background-color);
-  font-family: var(--primary-font);
+  background-color: var(--color-bg);
+  font-family: var(--primary-font)
   color: var(--text-color);
   max-width: 1750px;
   margin: 0 auto;
